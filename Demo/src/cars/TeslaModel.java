@@ -1,5 +1,5 @@
 package cars;
-
+// flyweight object
 public class TeslaModel {
     // Color would be the extrinsic data
     private String carColor;
@@ -14,5 +14,13 @@ public class TeslaModel {
 
     public Car getModelType() {
         return modelType;
+    }
+
+    @Override
+    public String toString() {
+        return "TeslaModel{" +
+                "carColor='" + carColor + '\'' +
+                ", modelType=" + modelType +
+                '}';
     }
 }
