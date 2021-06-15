@@ -1,0 +1,1 @@
+# Flyweight design pattern example
